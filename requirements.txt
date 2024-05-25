@@ -1,0 +1,6 @@
+ray[serve]
+starlette
+sentence-transformers
+torch
+transformers
+requests

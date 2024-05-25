@@ -1,0 +1,17 @@
+{
+	"ulid": "01HYH1ZRV82HNS2XS0M6RETPCV",
+	"minTime": 1716400803010,
+	"maxTime": 1716408000000,
+	"stats": {
+		"numSamples": 7200,
+		"numSeries": 10,
+		"numChunks": 62
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HYH1ZRV82HNS2XS0M6RETPCV"
+		]
+	},
+	"version": 1
+}
