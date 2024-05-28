@@ -4,10 +4,10 @@ client = JobSubmissionClient("http://127.0.0.1:8265")
 
 kick_off_pytorch_benchmark = (
     # Clone the project.
-    "git clone -b main git@github.com:javiro/lw_translator || true;"
+    'rm -rf lw_translator;git clone https://github.com/javiro/lw_translator.git;pip install --upgrade pip;pip install -U "ray[data,train,tune,serve]";'
     # Run the training.
     "python lw_translator/ray_training.py"
-    " --data-size-gb=1 --num-epochs=2 --num-workers=1"
+    " --num-epochs=2 --num-workers=1"
 )
 
 
